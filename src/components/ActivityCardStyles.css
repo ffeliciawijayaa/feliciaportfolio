@@ -1,0 +1,79 @@
+.Activity {
+  width: 100%;
+  padding: 6rem 1rem;
+  background: #fff1e8;
+}
+
+.card-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+@media screen and (max-width: 740px) {
+  .card-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  border: 1px solid #eee;
+  color: black;
+  border-radius: 10px;
+  background-color: #fea178;
+  border-radius: 8px;
+  border: 3px solid black;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px 0px #1a1a1a;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.card p {
+  color: black;
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+.bar {
+  padding: 0rem 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  box-shadow: 1px 2px 0px 0px black;
+  background-color: #e9f5ef;
+  margin-bottom: 10px;
+  width: 50%;
+  border: 2px solid #1a1a1a;
+  text-align: center;
+  display: block;
+}
+
+.bars {
+  padding: 0rem 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  box-shadow: 1px 2px 0px 0px black;
+  background-color: #f3db5a;
+  margin-bottom: 10px;
+  border: 2px solid #1a1a1a;
+  text-align: center;
+}

@@ -1,0 +1,94 @@
+.project-heading {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+  color: black;
+}
+
+.project-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+}
+
+.project-card {
+  background: pink;
+  padding: 1.2rem 1rem;
+  border-radius: 8px;
+  border: 3px solid black;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px 0px #1a1a1a;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.project-title {
+  color: black;
+  padding: 0.5rem 0;
+}
+
+.project-details {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.project-details p {
+  font-size: 1rem;
+  color: black;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+
+  text-decoration: none;
+  border: 2.5px solid #1a1a1a;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 4px 0px 0px #1a1a1a;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-left {
+  background-color: #c6a2ff;
+}
+
+.btn-right {
+  background-color: #fedd58;
+}
+
+.type {
+  border-radius: 15px;
+  background-color: #abe0da;
+  margin-bottom: 10px;
+  width: 50%;
+  border: 2px solid #1a1a1a;
+  text-align: center;
+}
+
+.project-btn .btn {
+  padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 1040px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
