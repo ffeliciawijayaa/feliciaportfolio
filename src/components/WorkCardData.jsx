@@ -9,8 +9,22 @@ import bbwb from "../assets/bb-wb.png";
 import adabekas from "../assets/adabekas.png";
 import satya from "../assets/satya.png";
 import klinik from "../assets/klinik.png";
+import hnh from "../assets/hnh.png";
 
 const WorkCardData = [
+  {
+    imgsrc: hnh,
+    title: "Hand & Hue E-Commerce",
+    type: "Individual Project",
+    text: "Hand & Hue is a handcrafted focused e-commerce website built using Odoo to help local artisans showcase and sell their handmade products more easily. The platform provides a simple, modern space where customers can browse unique crafts and complete their purchases smoothly. The site can be accessed here: https://handnhue.odoo.com/",
+    role: "Odoo Developer",
+    tech: "Odoo",
+    learn:
+      "I learned how to build and configure an e-commerce flow in Odoo, customize website pages, manage products, and set up a smooth checkout process while understanding how Odoo handles website and e-commerce modules.",
+
+    view: "https://handnhue.odoo.com/",
+    source: "https://handnhue.odoo.com/",
+  },
   {
     imgsrc: carens,
     title: "Caren's Auction Website",
@@ -46,7 +60,7 @@ const WorkCardData = [
     role: "Tester (Selenium IDE, TestComplete, Ranorex)",
     tech: "Selenium IDE, Katalon Recorder, TestComplete, Ranorex",
     learn:
-      "I learned how to apply black box testing effectively using several tools. This process helped me understand functional validation from a user’s perspective, while also using automation tools to detect issues quickly. ",
+      "I learned how to apply black box testing effectively using several tools, helping me understand functional validation from a user’s perspective while using automation to detect issues quickly.",
     view: "https://drive.google.com/file/d/1mDoVN6DBgl2xr7SyJIn_Dq97YQeUS7Mh/view?usp=sharing",
     source:
       "https://drive.google.com/file/d/1mDoVN6DBgl2xr7SyJIn_Dq97YQeUS7Mh/view?usp=sharing",

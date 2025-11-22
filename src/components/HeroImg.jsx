@@ -1,14 +1,12 @@
 import "./HeroImgStyles.css";
-import IntroImg from "../assets/bg.jpeg";
+
 import ProfilePic from "../assets/feli.jpg";
 import { Link } from "react-router-dom";
 
 const HeroImg = () => {
   return (
     <div className="hero">
-      <div className="mask">
-        <img className="into-img" src={IntroImg} alt="Background" />
-      </div>
+      <div className="mask"></div>
 
       <div className="content">
         <div className="text-section">

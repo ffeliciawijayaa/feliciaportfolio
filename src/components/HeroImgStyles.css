@@ -1,14 +1,9 @@
-/* ==================================== */
-/* 1. KONTENER UTAMA (HERO & MASK) */
-/* ==================================== */
-
 .mask {
   width: 100%;
   height: 100vh;
   position: relative;
 }
 
-/* Mengganti background-color lama yang diaplikasikan ke mask::after */
 .mask::after {
   content: "";
   width: 100%;
@@ -16,7 +11,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  /* Ubah warna background keseluruhan halaman utama */
+
   background-color: #fff1e8;
 }
 
@@ -26,32 +21,26 @@
   width: 100%;
 }
 
-/* ==================================== */
-/* 2. LAYOUT DUA KOLOM (HERO .CONTENT) */
-/* ==================================== */
-
 .hero .content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  /* AKTIVASI FLEXBOX UNTUK 2 KOLOM */
   display: flex;
-  justify-content: space-between; /* Jarak antara teks dan gambar */
+  justify-content: space-between;
   align-items: center;
-  max-width: 1200px; /* Batasi lebar kontainer */
+  max-width: 1200px;
   width: 90%;
-  z-index: 10; /* Pastikan konten di atas mask */
+  z-index: 10;
   padding: 2rem 0;
 }
 
-/* Mengatur ulang teks menjadi dua kolom (KIRI) */
 .text-section {
   flex: 1;
   max-width: 50%;
   padding-right: 2rem;
-  text-align: left; /* Teks diatur ke kiri */
+  text-align: left;
 }
 
 .text-section h1 {
